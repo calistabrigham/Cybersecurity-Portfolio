@@ -5,3 +5,4 @@ I am Calista Brigham, a dedicated student with a love for cybersecurity. I have 
 
 ## Contents
 - **Internal Security Audit**: I performed a controls-and-compliance check for a fictional business, based on a given scope, goals, and risk-assessment report, and provided recommendations to improve the business's security posture and compliance. Although the business had some physical controls in place, it failed to properly secure sensitive data, maintain consistent and organized security policies, and meet several compliance standards.
+- **Incident Report Analysis**: I analyzed the incident-response procedure of a fictional business, using the NIST CSF. First I provided a summary of the incident. Then I *identified* devices and services affected by the incident, described the plan for *protection* against and *detection* of future attacks, and detailed the *response* and *recovery* procedures for similar incidents.
