@@ -1,7 +1,23 @@
 # Cybersecurity-Portfolio
 
 ## :wave: Personal Statement
-I am Calista Brigham, a dedicated student with a love for cybersecurity. I have a strong background in programming, technical writing, and problem solving and have experience in solo and team-based CTFs. I am eager to defend organizations against cyberattacks, respond to incidents, and track down vulnerabilities.
+I am Calista Brigham, a dedicated student with a love for cybersecurity. I have a strong background in programming, technical writing, and problem solving and have experience in solo and team-based CTFs. I am eager to gain real-world experience responding to incidents, tracking down vulnerabilities, and defending organizations against cyberattacks.
+
+## :muscle: Skills & Tools
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+  <div>
+    - Risk Assessment
+    - Security Controls
+    - NIST Cybersecurity Framework
+    - Linux
+  </div>
+  <div>
+    - SQL
+    - Vulnerability Assessment
+    - Incident Response
+    - Python
+  </div>
+</div>
 
 ## :book: Contents
 - **Internal Security Audit**: I performed a controls-and-compliance check for a fictional business, based on a given scope, goals, and risk-assessment report, and provided recommendations to improve the business's security posture and compliance. Although the business had some physical controls in place, it failed to properly secure sensitive data, maintain consistent and organized security policies, and meet several compliance standards.
