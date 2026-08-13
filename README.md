@@ -1,16 +1,8 @@
-# Cybersecurity-Portfolio
+# Cybersecurity Portfolio
 
 ## :wave: Personal Statement
 I am Calista Brigham, a dedicated student with a love for cybersecurity. I have a strong background in programming, technical writing, and problem solving and have experience in solo and team-based CTFs. I am eager to gain real-world experience responding to incidents, tracking down vulnerabilities, and defending organizations against cyberattacks.
 
-## :muscle: Skills & Tools
-Risk Assessment :black_small_square: Security Controls :black_small_square: NIST Cybersecurity Framework :black_small_square: Linux :black_small_square: SQL :black_small_square: Vulnerability Assessment :black_small_square: Incident Response :black_small_square: Python
-
 ## :book: Contents
-- **Internal Security Audit**: I performed a controls-and-compliance check for a fictional business, based on a given scope, goals, and risk-assessment report, and provided recommendations to improve the business's security posture and compliance. Although the business had some physical controls in place, it failed to properly secure sensitive data, maintain consistent and organized security policies, and meet several compliance standards.
-- **Incident Report Analysis**: I analyzed the incident-response procedure of a fictional business, using the NIST CSF. First, I provided a summary of the incident. Then I *identified* devices and services affected by the incident, described the plan for *protection* against and *detection* of future attacks, and detailed the *response* and *recovery* procedures for similar incidents.
-- **Linux File Permissions**: I practiced using `ls` and `chmod` to change file permissions for a fictional scenario. I added, removed, and assigned permissions to files and directories, to protect sensitive information and preserve the principle of least privilege.
-- **SQL Filters**: I practiced using comparison and logical operators in SQL queries, to investigate potential security issues and review employee information in a fictional scenario. I used `=`, `>`, `AND`, `OR`, `NOT`, `LIKE`, and `%` to filter on dates and times, multiple conditions, and patterns.
-- **Vulnerability Assessment Report**: I analyzed and addressed the vulnerabilities of an open-access system of a fictional business, using information from NIST SP 800-30 Rev. 1. I described the scope of the vulnerability assessment; enumerated threat sources and events; provided likelihood, severity, and risk scores for each; and discussed the approach I used and the remediation strategy proposed.
-- **Incident Handler's Journal**: I recorded my thoughts and processes for four activites related to incident detection and response. I analyzed security incidents using the five Ws (*who*, *what*, *when*, *where*, and *why*) and included a reflection on my learning journey through the course.
-- **Python Algorithm**: I practiced using foundational Python concepts to develop an algorithm that updated an IP-address allow list in a fictional scenario. I used `with` and `if` statements; a `for` loop; and the `open()`, `read()`, `write()`, `split()`, and `join()` methods.
+- **CTF Challenges**: Capture-the-Flag challenges and solutions I created for UMBC's CyberDawgs club.
+- **Google Cybersecurity Certificate**: Activities and worksheets I completed for the Google Cybersecurity Certificate.
