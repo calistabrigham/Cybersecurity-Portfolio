@@ -1,0 +1,21 @@
+Title: The Key's as Easy as 123 - Solution
+Author: Calista Brigham
+
+Start by examining the ciphertext: "JZKEKZ2ONVIWOTT2M5TU42SVM5HGU23HJZVFSZ2NNJCWOTTNKFTU42SJM5HHUWLHJZDVCZ2OPJAWOTLKJFTU42SZM5HEOULHJZVFCZ2ONJRWOTL2IFTU4R2RM5HHUTLHJYZFKZ2ONVGWOTTKIFTU42SZM5HEOULHJZVFKZ2OPJKWOTL2MNTU46TDM5HGUVLHJZWVSPI=."
+
+Note that it contains mostly uppercase letters and numbers and ends with an equals sign. This is a clue that it is likely in Base32, which uses the 32-character alphabet A-Z2-7. Base32 is useful for representing raw data as readable text. Each Base32 character corresponds to 5 bits of binary data, and the equals sign (=) represents padding required at the end if the raw data cannot be evenly split into 5-bit chunks.
+-> Using a tool like CyberChef or dcode.fr, convert the ciphertext from Base32. Doing so results in the string "NTEgNmQgNzggNjUgNjkgNjYgMjEgNmQgNjIgNzYgNGQgNzAgMjIgNjYgNGQgNjQgNjcgMzAgNGQgNzMgN2UgNmMgNjAgNjYgNGQgNjUgNzUgMzcgNzcgNjUgNmY=."
+
+This new string, though ending in an equals sign as before, now contains some lowercase letters. This is an indication that it might be in Base64, which (usually) uses the 64-character alphabet A-Za-z0-9+/. (Different application might use slightly different character sets or orderings.) Base64 serves the same purpose as Base32 and works similarly, except that each Base64 character corresponds to 6 bits of binary data. Again, the equals sign (=) is a padding character.
+-> Convert the ciphertext from Base64 to reveal the string "51 6d 78 65 69 66 21 6d 62 76 4d 70 22 66 4d 64 67 30 4d 73 7e 6c 60 66 4d 65 75 37 77 65 6f."
+
+This string is easily recognizable as hexadecimal (Base 16), which uses the alphabet 0-9a-d. Hex is frequently used in computing as a shorter way to represent binary. For example, the string "sample" is "01110011 01100001 01101101 01110000 01101100 01100101" in binary but "73 61 6d 70 6c 65" in hex.
+-> Convert the string from hex to find "Qmxeif!mbvMp"fMdg0Ms~l`fMeu7weo."
+
+Online tools might not provide any leads in decrypting this string. Now is a good time to consider the hint, which references a common bitwise cipher. In cryptography, a common bitwise cipher is XOR (eXclusive OR), which has the special property of being its own inverse. A plaintext can be XORed with a key to create a ciphertext, and this ciphertext can then be decrypted by XORing it again with the same key. Here, the title of the challenge provides the key: 123.
+-> Apply XOR to the string with the key 123 (in hex) to discover the string "Cnjf{e3npu_s0e_gu3_plore_fg4ef}."
+
+This is very similar to the desired flag format, as indicated by the appearance of regular letters and brackets. A simple Caesar cipher should remedy this. A Caesar cipher shifts all the letters of a message forward or backward through the alphabet by a fixed amount. The ROT13 cipher is a specific example of a Caesar cipher in which the letters are shifted 13 places forward (e.g., a = n, b = o, c = p, etc.).
+-> Use ROT13 on the string to reveal "Paws{r3ach_f0r_th3_cyber_st4rs}."
+
+This is the flag!
