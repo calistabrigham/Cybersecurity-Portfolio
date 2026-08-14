@@ -1,7 +1,7 @@
 # CTF Challenges
 
 ## :muscle: Skills & Tools
-Cryptography :black_small_square: Logic :black_small_square: CyberChef
+Cryptography ▪️ Logic ▪️ CyberChef
 
 ## :book: Contents
 - **Challenges**: CTF-style exercises related to cryptography, logic, deduction, and other security-related concepts.

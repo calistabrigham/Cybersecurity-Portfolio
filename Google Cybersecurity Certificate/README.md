@@ -1,7 +1,7 @@
 # Google Cybersecurity Certificate
 
 ## :muscle: Skills & Tools
-Risk Assessment :black_small_square: Security Controls :black_small_square: NIST Cybersecurity Framework :black_small_square: Linux :black_small_square: SQL :black_small_square: Vulnerability Assessment :black_small_square: Incident Response :black_small_square: Python
+Risk Assessment ▪️ Security Controls ▪️ NIST Cybersecurity Framework ▪️ Linux ▪️ SQL ▪️ Vulnerability Assessment ▪️ Incident Response ▪️ Python
 
 ## :book: Contents
 - **Internal Security Audit**: I performed a controls-and-compliance check for a fictional business, based on a given scope, goals, and risk-assessment report, and provided recommendations to improve the business's security posture and compliance. Although the business had some physical controls in place, it failed to properly secure sensitive data, maintain consistent and organized security policies, and meet several compliance standards.
